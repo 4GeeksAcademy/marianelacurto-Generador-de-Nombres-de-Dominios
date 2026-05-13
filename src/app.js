@@ -19,8 +19,8 @@ window.onload = function () {
       for (let j = 0; j < adj.length; j++) {
         for (let k = 0; k < noun.length; k++) {
           for (let m = 0; m < extensions.length; m++) {
-            let domain = pronoun[i] + adj[j] + noun[k] + extensions[m];
-            domains += domain + "<br>";
+            let domain = `${pronoun[i]}${adj[j]}${noun[k]}${extensions[m]}`;
+            domains += `${domain}<br>`;
           }
         }
       }
